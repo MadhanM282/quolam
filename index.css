@@ -64,9 +64,13 @@ nav {
   font-weight: 700;
   font-family: "Sarabun", sans-serif;
 }
-.hero.div > p {
+.hero>div > p {
   color: #ccd0d7;
-  font-family: "Open Sans";
+  width:630px;
+  line-height:1;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  /* font-family: "Open Sans"; */
 }
 .hero-buttons > button {
   width: 120px;
