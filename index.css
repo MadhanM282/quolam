@@ -1,0 +1,239 @@
+body {
+  margin: 0;
+  line-height: 0;
+  font-family: "Sarabun", sans-serif;
+}
+nav {
+  background-image: url("./projectfiles/NavBG.png");
+}
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+}
+#nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  margin-left: 50px;
+}
+.logo {
+  height: fit-content;
+  margin-top: 28px;
+  margin-left: -50px;
+}
+#nav-bar > p {
+  margin-left: 10px;
+  font-size: 14px;
+  line-height: 32px;
+  color: #a4aead;
+  font-weight: 600;
+  font-family: "Sarabun", sans-serif;
+  border: 1px solid #1d2026;
+  padding: 0px 6px 0px 6px;
+}
+
+#nav-bar > p:hover {
+  border: 1px solid #23b7a4;
+  color: #23b7a4;
+  border-radius: 5px;
+}
+
+.hero-container {
+  background-image: url(./projectfiles/BG.png);
+}
+
+.hero {
+  background-image: url(./projectfiles/pic.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
+  color: #ccd0d7;
+}
+.hero > div {
+  height: 70vh;
+  padding-top: 150px;
+  padding-left: 200px;
+}
+.hero > div > h1 {
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Sarabun", sans-serif;
+}
+.hero.div > p {
+  color: #ccd0d7;
+  font-family: "Open Sans";
+}
+.hero-buttons > button {
+  width: 120px;
+  height: 40px;
+  border-radius: 3px;
+  color: white;
+  background-color: rgba(222, 180, 180, 0);
+  border: 2px solid #ffffff;
+}
+
+.hero-buttons > button:hover {
+  background-color: #23b7a4;
+  border: 2px solid #23b7a4;
+}
+
+/* secont containor */
+.Modest {
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  padding-bottom: 80px;
+  border-bottom: 1px solid rgb(204, 204, 204);
+}
+.Modest > div {
+  margin-left: 80px;
+}
+
+.mod-se1 {
+  padding-left: 90px;
+  margin-bottom: 50px;
+  margin-top: 100px;
+}
+
+.mod-sec2 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.mod-sec2 > div {
+  width: 40%;
+}
+
+.modsec2-right-content {
+  display: flex;
+  justify-content: space-evenly;
+}
+.modsec2-part1 > p {
+  line-height: 1;
+}
+.modcontent {
+  margin-left: 10px;
+  padding-right: 60px;
+}
+.modcontent > p {
+  line-height: 1;
+}
+.modcontent > h4 {
+  font-size: 18px;
+  color: #292f36;
+  font-weight: 700;
+}
+
+.social-logos {
+  display: flex;
+}
+
+.social-logos > div {
+  width: 60px;
+  height: 60px;
+  background-color: #c8cdd0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 1px;
+}
+
+.mod-num {
+  width: 130px;
+  height: 50px;
+  background-color: #23b7a4;
+  margin-top: 17px;
+}
+.mod-num > p {
+  font-size: 20px;
+  line-height: 10px;
+  color: #ffffff;
+  font-weight: 700;
+  text-align: center;
+}
+
+/* Team */
+
+.team {
+  width: 77%;
+  margin: auto;
+  /* border: 1px solid red; */
+  padding-top: 50px;
+  padding-bottom: 70px;
+}
+
+.team-se1 > h1 {
+  padding-left: 20px;
+  padding-bottom: 50px;
+}
+
+.teamImages {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.teamImages > div > img {
+  width: 233px;
+}
+.teamImages > div > div {
+  width: 211px;
+  height: 54px;
+  background-color: #e1e6ea;
+  border: 1px solid transparent;
+  padding-left: 20px;
+}
+
+.teamImages > div > div > p:nth-child(1) {
+  font-size: 16px;
+  color: #292f36;
+  font-weight: 700;
+  /* line-height:1 */
+}
+
+.teamImages > div > div > p:nth-child(2) {
+  font-size: 14px;
+  color: #8d8f92;
+  font-weight: 400;
+}
+/* images */
+
+.images {
+  /* width:80%; */
+  background-color: #3a454d;
+  border: 1px solid #3a454d;
+  margin: auto;
+  padding-bottom: 70px;
+}
+
+.images > div > h1 {
+  padding-left: 177px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.image-containor {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 80%;
+  margin: auto;
+  gap: 30px;
+}
+
+.image-containor > img {
+  width: 310px;
+}
+.image-button {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.image-button > button {
+  width: 147px;
+  height: 40px;
+  border-radius: 3px;
+  background-color: rgba(222, 180, 180, 0);
+  border: 2px solid #ffffff;
+}
