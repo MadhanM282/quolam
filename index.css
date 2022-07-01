@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  line-height: 1;
+  line-height: 0;
   font-family: "Sarabun", sans-serif;
 }
 nav {
@@ -325,22 +325,22 @@ nav {
 .contact-containor {
   width: 80%;
   margin: auto;
-  margin-bottom: 100px;
+  margin-bottom: 60px;
 }
 .contact-containor > h1 {
   padding-left: 18px;
   padding-top: 30px;
-  padding-bottom: 30px;
+  /* padding-bottom: 30px; */
 }
 .map {
   background-image: url(./projectfiles/map.png);
   height: 246px;
   background-repeat: no-repeat;
   background-size: cover;
+  /* border: 1px solid red; */
 }
 .form-containor {
   width: 80%;
-  /* border: 1px solid red; */
   margin: auto;
   display: flex;
 }
