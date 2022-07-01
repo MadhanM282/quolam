@@ -192,6 +192,12 @@ nav {
   padding-left: 20px;
 }
 
+.teamImages > div > div:hover {
+  
+  background-color: #3a454d;
+  
+}
+
 .teamImages > div > div > p:nth-child(1) {
   font-size: 16px;
   color: #292f36;
@@ -204,6 +210,7 @@ nav {
   color: #8d8f92;
   font-weight: 400;
 }
+
 /* images */
 
 .images {
